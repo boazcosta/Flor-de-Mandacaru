@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.restaurante.app.flordemandacaru.Telacardapio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="vertical"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp">
+
+                    <CheckBox
+
+                        android:id="@+id/rb_agua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_agua"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirAgua"
+                        android:text="Água" />
+
+
+                    <CheckBox
+                        android:id="@+id/rb_aguadecoco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_aguadecoco"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirAguaDeCoco"
+                        android:text="Água de Coco" />
+
+                    <CheckBox
+                        android:id="@+id/rb_caipirinha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_caipirinha"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirCaipirinha"
+                        android:text="Caipirinha" />
+
+                    <CheckBox
+                        android:id="@+id/rb_cerveja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_cerveja"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirCerveja"
+                        android:text="Cerveja" />
+
+                    <CheckBox
+                        android:id="@+id/rb_coca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_coca"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirCoca"
+                        android:text="Coca Cola" />
+
+                    <CheckBox
+                        android:id="@+id/rb_guarana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_guarana"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirGuarana"
+                        android:text="Guaraná" />
+
+                    <CheckBox
+                        android:id="@+id/rb_suco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_suco"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirSuco"
+                        android:text="Suco" />
+
+                    <CheckBox
+                        android:id="@+id/rb_vbranco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_vbranco"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirVBranco"
+                        android:text="Vinho Branco" />
+
+
+                    <CheckBox
+                        android:id="@+id/rb_vporto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_vporto"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirVPorto"
+                        android:text="Vinho do Porto" />
+
+                    <CheckBox
+                        android:id="@+id/rb_wisky"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_wisky"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirWisky"
+                        android:text="Wisky" />
+
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="34dp"
+    android:orientation="horizontal"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Próxima"
+            android:id="@+id/proxima_tela_bebidas_botao"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

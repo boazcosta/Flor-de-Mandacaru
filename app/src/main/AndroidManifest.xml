@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.restaurante.app.flordemandacaru">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/imm"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/tela_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Telacadastro"
+            android:label="@string/title_activity_telacadastro" />
+        <activity
+            android:name=".Telamenu"
+            android:label="@string/title_activity_telamenu" />
+        <activity
+            android:name=".Telacardapio"
+            android:label="@string/title_activity_telabebidas" />
+        <activity
+            android:name=".Telalibera"
+            android:label="@string/title_activity_telalibera" />
+        <activity
+            android:name=".Telapedido"
+            android:label="@string/title_activity_telapedido" />
+        <activity
+            android:name=".Telasobremesa"
+            android:label="@string/title_activity_telasobremesa"></activity>
+    </application>
+
+</manifest>

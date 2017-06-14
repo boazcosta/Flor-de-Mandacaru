@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.restaurante.app.flordemandacaru.Telasobremesa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp">
+
+                <CheckBox
+                    android:id="@+id/rb_bolinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_bolinho"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirBolinho"
+                    android:text="Bolinho de Camarão" />
+
+                <CheckBox
+                    android:id="@+id/rb_bolotru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_bolotru"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirBoloTrufado"
+                    android:text="Bolo Trufado de Chocolate" />
+
+                <CheckBox
+                    android:id="@+id/rb_bolomara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_bolomara"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirBoloMaracuja"
+                    android:text="Bolo de Maracujá" />
+
+                <CheckBox
+                    android:id="@+id/rb_creme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_creme"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirCreme"
+                    android:text="Creme Inglês" />
+
+                <CheckBox
+                    android:id="@+id/rb_milk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_milk"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirMilk"
+                    android:text="Milk Shake Tudão" />
+
+
+                <CheckBox
+                        android:id="@+id/rb_pudim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/rb_pudim"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:onClick="atribuirPudim"
+                        android:text="Pudim de Leite" />
+
+                <CheckBox
+                    android:id="@+id/rb_tbranco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_tbranco"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirTBranco"
+                    android:text="Torta de Chocolate Branco" />
+
+                <CheckBox
+                    android:id="@+id/rb_tfrango"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_tfrango"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirTFrango"
+                    android:text="Torta de Frango" />
+
+                <CheckBox
+                    android:id="@+id/rb_tcatupiri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_tcatupiri"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirTCatupiri"
+                    android:text="Torta de Frango com Catupiri" />
+
+                <CheckBox
+                    android:id="@+id/rb_morango"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rb_morango"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:onClick="atribuirMorango"
+                    android:text="Torta de Morango" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Cancelar Pedido"
+                android:id="@+id/cancelar_tela_sobremesa_botao"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Concluir Pedido"
+                android:id="@+id/conclui_tela_sobremesas_botao"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

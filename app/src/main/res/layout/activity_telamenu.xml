@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.restaurante.app.flordemandacaru.Telamenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="121dp"
+                android:layout_height="149dp"
+                android:paddingTop="24dp"
+                android:src="@drawable/pedido" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="144dp"
+                android:layout_height="158dp"
+                android:layout_marginBottom="24dp"
+                android:paddingTop="24dp"
+                android:src="@drawable/mesa"
+                android:layout_weight="0.99" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginTop="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fazer Pedido"
+                android:id="@+id/pedido_tela_menu_botao"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Liberar Mesa"
+                android:id="@+id/liberar_tela_menu_botao" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
